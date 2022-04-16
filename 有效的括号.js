@@ -1,3 +1,5 @@
+// 利用栈进行比较
+// 如果入栈的是右侧括号，则必须与栈顶的括号匹配
 var isValid = function (s) {
     let stark = [];
     for (let i = 0; i < s.length; i++) {
