@@ -12,7 +12,7 @@ class linkList {
         this.head = head;
     }
 }
-
+// 实例化
 let node1 = new linkNode(2);
 let nodeList = new linkList(node1);
 console.log(node1);
