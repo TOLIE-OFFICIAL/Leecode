@@ -4,7 +4,7 @@ var moveZeroes = function (nums) {
     let len = nums.length
     while (fast < len) {
         // nums[slow]始终指向0
-        console.log(nums[slow]);
+        // console.log(nums[slow]);
 
         if (nums[fast] != 0) {
             //交换fast和slow指向的值
