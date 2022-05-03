@@ -16,7 +16,6 @@ var moveZeroes = function (nums) {
         }
         fast++;
     }
-    return len;
 };
 
 // moveZeroes([0, 1, 0, 3, 12]);
